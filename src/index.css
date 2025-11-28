@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* NAVBAR */
+.navbar {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* PROFILE SECTION */
+.profile-section {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #000;
+  object-fit: cover;
+}
+
+/* Buttons below profile */
+.profile-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.profile-buttons a {
+  padding: 12px 28px;
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.profile-buttons a:hover {
+  background: #333;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+/* Reveal.css */
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }

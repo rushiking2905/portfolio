@@ -1,0 +1,48 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;     /* stack text + image vertically */
+  justify-content: center;    /* center vertically */
+  align-items: center;        /* center horizontally */
+  text-align: center;         /* center text */
+  background: linear-gradient(to right, #000, #111);
+  color: #fff;
+  padding: 40px;
+}
+
+.hero-content {
+  margin-bottom: 40px;        /* space between text & image */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #ff4c60;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff1e3c;
+}
+
+/* IMAGE STYLE */
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+  border-radius: 50%;
+  border: 3px solid white;
+}

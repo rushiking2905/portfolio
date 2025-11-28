@@ -1,0 +1,50 @@
+.projects {
+  width: 100%;
+  min-height: 50vh;
+  padding: 60px 40px;
+  background: #f2f2f2;
+}
+
+.projects h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  background-color: aqua ;
+}
+
+/* GRID → spread full width */
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* PROJECT CARD */
+.project-card {
+  background: #111;
+  color: white;
+  padding: 25px;
+  border-radius: 20px;
+  width: 420px;             /* bigger card */
+  text-align: center;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease;
+}
+
+/* Hover Animation */
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* GIF IMAGES */
+.project-gif {
+  width: 100%;               /* same size both GIFs */
+  height: 250px;
+  object-fit: cover;
+  background: white;
+  border-radius: 12px;
+  margin-top: 15px;
+}
